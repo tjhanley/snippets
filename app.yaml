@@ -5,7 +5,7 @@ api_version: 1
 threadsafe: false
 
 handlers:
-- url: /_ah/mail/snippets@.*fssnippets\.appspotmail\.com 
+- url: /_ah/mail/snippets@.*snippets-dev\.appspotmail\.com 
   script: receive_email.py
   login: admin
 
